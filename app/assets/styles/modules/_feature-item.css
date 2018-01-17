@@ -1,0 +1,92 @@
+.feature-item {
+  position: relative;
+  padding-bottom: 2.5rem;
+
+  @mixin atSmall {
+    padding-left: 94px;
+  }
+  
+  &__skill-name {
+     padding-left: 10px;
+     display: inline-block;
+     width: 40%;
+     height: 28px;
+     line-height: 28px;
+     font-weight: bold;
+     font-size: 13px;
+     color: white;
+     clear: both;
+     float: left;
+     border-radius: 2px 0px 0px 2px;
+
+    @mixin atMedium
+    {
+      width: 20%;
+    }
+   }
+    
+    &__skillbar-wrapper {
+     float: left;
+     position: relative;
+     display: block;
+     margin-bottom: 15px;
+     display: inline-block;
+     width: 60%;
+     background-color: #E6E6E6;
+     height: 28px;
+     border-radius: 0px 3px 3px 0px;
+
+     @mixin atMedium
+     {
+        width: 80%;
+     }
+    }
+    
+    &__skillbar-bar {
+     height: 28px;
+     width: 0px;
+     border-radius: 0px 3px 3px 0px;
+    }
+    
+    &__skillbar-percent {
+     position: absolute;
+     right: 10px;
+     top: 0;
+     font-size: 12px;
+     height: 25px;
+     line-height: 25px;
+     color: black;
+    }
+
+    &__html, &__html-bar {
+      background: #ff4819;
+    }
+    
+    &__css, &__css-bar {
+      background: #0260a2;
+    } 
+
+    &__js, &__js-bar {
+      background: #e5bb31;
+    }
+
+    &__wp, &__wp-bar {
+      background: #0085ba;
+    }
+    
+    &__rails, &__rails-bar {
+      background: #cc0000;
+    }
+
+    &__laravel, &__laravel-bar {
+      background: #f4645f;
+    }
+
+    &__react, &__react-bar {
+      background: #61dafb;
+    }
+
+    &__node, &__node-bar {
+      background: #026e00;
+    }
+}
