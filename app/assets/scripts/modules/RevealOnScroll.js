@@ -12,7 +12,7 @@ class RevealOnScroll {
     this.wp = $('.feature-item__wp-bar');
     this.rails = $('.feature-item__rails-bar');
     this.laravel = $('.feature-item__laravel-bar');
-    this.react = $('.feature-item__react-bar');
+    this.vue = $('.feature-item__vue-bar');
     this.node = $('.feature-item__node-bar');
 
     this.hideInitially();
@@ -37,8 +37,8 @@ class RevealOnScroll {
           that.js.animate({width:'80%'}, 2000);
           that.wp.animate({width:'95%'}, 2000);
           that.rails.animate({width:'80%'}, 2000);
-          that.laravel.animate({width:'50%'}, 2000);
-          that.react.animate({width:'50%'}, 2000);
+          that.laravel.animate({width:'80%'}, 2000);
+          that.vue.animate({width:'50%'}, 2000);
           that.node.animate({width:'40%'}, 2000);
         },
         offset: that.offsetPercentage

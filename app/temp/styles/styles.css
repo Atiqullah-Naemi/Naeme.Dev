@@ -995,8 +995,8 @@ a {
   background: #f4645f;
 }
 
-.feature-item__react, .feature-item__react-bar {
-  background: #61dafb;
+.feature-item__react, .feature-item__vue-bar {
+  background: #4fc08d;
 }
 
 .feature-item__node, .feature-item__node-bar {

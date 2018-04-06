@@ -9985,7 +9985,7 @@
 	    this.wp = (0, _jquery2.default)('.feature-item__wp-bar');
 	    this.rails = (0, _jquery2.default)('.feature-item__rails-bar');
 	    this.laravel = (0, _jquery2.default)('.feature-item__laravel-bar');
-	    this.react = (0, _jquery2.default)('.feature-item__react-bar');
+	    this.vue = (0, _jquery2.default)('.feature-item__vue-bar');
 	    this.node = (0, _jquery2.default)('.feature-item__node-bar');
 
 	    this.hideInitially();
@@ -10013,8 +10013,8 @@
 	            that.js.animate({ width: '80%' }, 2000);
 	            that.wp.animate({ width: '95%' }, 2000);
 	            that.rails.animate({ width: '80%' }, 2000);
-	            that.laravel.animate({ width: '50%' }, 2000);
-	            that.react.animate({ width: '50%' }, 2000);
+	            that.laravel.animate({ width: '80%' }, 2000);
+	            that.vue.animate({ width: '50%' }, 2000);
 	            that.node.animate({ width: '40%' }, 2000);
 	          },
 	          offset: that.offsetPercentage

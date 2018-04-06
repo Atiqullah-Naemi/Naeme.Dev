@@ -82,8 +82,8 @@
       background: #f4645f;
     }
 
-    &__react, &__react-bar {
-      background: #61dafb;
+    &__react, &__vue-bar {
+      background: #4fc08d;
     }
 
     &__node, &__node-bar {
